@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+const double pi=3.1416;
+int main(){
+    //https://isocpp.org/
+    // se puede comentar lineea por linea con (//) o un conjunte de lineas con(/*...*/)
+    string x = "bienvenido a mi ejercicio #0";
+    cout<<x<<endl;
+    cout<<"ingresa un caractera"<<endl;
+   char y ;
+   cin>>y;
+    cout<<y<<endl;
+    cout<<"ingrese un numero entero que se sumara a pi:";
+    int z;
+    cin >>z;
+    cout<<z+pi<<endl;
+    //double y float se usa para numeros con decimales 
+      cout<<"ingrese un numero decimal que se restara a pi:";
+    double a;
+    cin>>a;
+    cout<<-a+pi<<endl;
+      cout<<"ingrese un numero decimal que multiplicara a pi:";
+    float b;
+    cin>>b;
+     cout<<b*pi<<endl;
+     cout<<"aqui hay un bool"<<endl;
+    bool c=true;
+     cout<<c<<endl;
+      cout<<"!HOLA,C++!"<<endl;
+
+
+
+    system("pause");
+
+
+
+
+
